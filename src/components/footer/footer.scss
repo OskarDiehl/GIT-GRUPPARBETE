@@ -1,0 +1,48 @@
+.footer {
+    background-color: #343a40;
+    color: white;
+    
+    a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        &:hover {
+            color: #f39c12;
+        }
+    }
+  
+    .row {
+      margin-bottom: 20px;
+    }
+  
+    .col-md-4 {
+      h5 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
+      
+      p, ul {
+        font-size: 0.9rem;
+      }
+    }
+    
+    .text-center {
+      font-size: 1rem;
+    }
+  }
+  .footer a:hover .fab {
+    font-size: 1.8rem;
+  }
+
+.footer .fab {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    transition: color 0.3s;
+  
+    &:hover {
+      color: #f39c12;
+    }
+  }
+  
+  
