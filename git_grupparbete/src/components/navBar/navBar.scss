@@ -1,7 +1,9 @@
+@import '../../style.css';
+
 .navbar {
     
     align-items: center;
-    background-color: #17a2b8;
+    background-color: var(--primary-color);
     padding: 1.5rem 2rem;
     ul{
         display: flex;

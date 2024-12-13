@@ -1,0 +1,42 @@
+@import '../../style.css';
+.hero-main {
+  display: flex;
+  height: 100vh;
+  padding: 2rem;
+  gap: 2rem;
+}
+.hero-main .hero-img-holder img {
+  width: 36rem;
+  height: 26rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.hero-main .hero-text-holder {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  margin-top: 2rem;
+}
+.hero-main .hero-text-holder h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
+.hero-main .hero-text-holder p {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.hero-main .hero-text-holder button {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.hero-main .hero-text-holder button:hover {
+  background-color: var(--primary-color-light);
+}/*# sourceMappingURL=heroMain.css.map */

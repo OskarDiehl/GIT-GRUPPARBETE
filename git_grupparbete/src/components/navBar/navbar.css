@@ -1,7 +1,8 @@
+@import '../../style.css';
 .navbar {
   align-items: center;
-  background-color: #17a2b8;
-  padding: 1.5rem 4rem;
+  background-color: var(--primary-color);
+  padding: 1.5rem 2rem;
 }
 .navbar ul {
   display: flex;
@@ -18,6 +19,4 @@
 }
 .navbar ul li a:hover {
   color: #f8f9fa;
-}
-
-/*# sourceMappingURL=navbar.css.map */
+}/*# sourceMappingURL=navBar.css.map */
