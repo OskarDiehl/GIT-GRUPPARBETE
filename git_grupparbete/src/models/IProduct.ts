@@ -9,3 +9,10 @@ export interface IProduct {
   image: string;
   rating: IRating;
 }
+
+// THE CODE INSIDE IRATING
+/* export interface IRating {
+    rating: number;
+    count: number;
+  }
+ */
